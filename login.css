@@ -1,0 +1,120 @@
+body{
+    background-color: #121212;
+}
+
+#logo{
+    width:auto;
+    max-height: 100%;
+    margin-left: 10px;
+    
+}
+
+#tb {
+    height: 50px;
+    width: 97%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    overflow: hidden;
+    position: relative;
+  }
+
+#homebutton{
+    float:right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color:#3943B7;
+    color: whitesmoke;
+}
+
+#btm{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding-top: 30px;
+}
+
+#login {
+    width: 350px;
+    height: 450px;
+    background-color: #101010;
+    margin: auto; 
+    flex-direction: column;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /*NOTE TO SELF: Horizontal offset, vertical offset, blur radius, color */
+}
+
+#logint{
+    font-family: Verdana;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.login-text{
+    font-size: smaller;
+}
+
+#usr1{
+    background-color: #282828;
+    color: grey;
+    border: 0;
+    margin-bottom: 20px;
+}
+#pwd1{
+    background-color: #282828;
+    color: grey;
+    border: 0;
+    margin-bottom: 30px;
+}
+#ftext{
+    color:#54B680;
+}
+
+#forget{
+    margin-bottom: 5px;
+}
+
+p{
+    color: whitesmoke;
+}
+
+
+#loginbutton{
+    background-color: #3943B7;
+    color: whitesmoke;
+    margin-top: 10px;
+    border:0;
+    font-weight: bolder;
+    
+}
+
+#remember-me {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 60px;
+}
+
+#check-box {
+    margin-right: 6px; 
+    vertical-align: middle;
+}
+
+#remember-text{
+    font-size: small;
+    color:whitesmoke;
+}
+
+#invalid{
+    font-size: smaller;
+    text-align: center;
+    color:red;
+    display: none; 
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
